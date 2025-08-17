@@ -7,7 +7,7 @@
     <title>Faugei Flower Shop</title>
     <script src="https://kit.fontawesome.com/386e963f51.js" crossorigin="anonymous"></script>
 </head>
-<body class="bg-[#f9fbff] max-w-[1140px] m-auto px-4 ">
+<body class="bg-[#f9fbff] max-w-6xl m-auto px-2 ">
 
     <!-- header -->
     <header class="w-full py-6">
@@ -125,51 +125,69 @@
 
 
             <!-- latest deal section -->
-        <section class="mt-30 lg:mt-20 py-70 lg:py-20">
+        <section class="mt-40 lg:mt-35 py-70 lg:py-20">
             <div class="space-y-8">
-                <div class="mt-30 lg:mt-20 text-center space-y-4 ">
+                <div class="mt-25 lg:mt-20 text-center space-y-4 ">
                     <h3 class="font-serif font-bold text-2xl lg:text-5xl "> <span class="text-[rgba(233,90,8,1)]">Latest</span> <span class="text-[rgba(0,0,0,1)]">Deals</span></h3>
                     <p class="font-sans font-normal text-base lg:text-[22px] text-[rgba(0,0,0,0.5)] w-[348px] lg:w-[888px] m-auto">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
                 </div>
 
-                <div class="mt-20 grid grid-cols-1 lg:grid-cols-3 gap-4 w-full max-w-5xl ">
-                    <div class="grig grid-rows-2 gap-4">
-                        <div class="">
-                            <img src="images/deal-bloom.png" alt="" class=""> 
-                            <h3 class="">60% Off | Bloom Plant</h3>
-                            <p class="">Shop Now</p>
+                <div class="mt-20 grid grid-cols-1 lg:grid-cols-3 gap-4 w-full max-w-6xl ">
+                    <div class="flex flex-col gap-4">
+
+                        <div class="relative h-80 rounded-xl overflow-hidden">
+                            <img src="images/deal-bloom.png" alt="" class="w-full h-full object-cover"> 
+                           <div class="absolate insert-0  bg-black/30 flex flex-col justify-center items-center text-white text-center ">
+                                 <h3 class="text-3xl font-bold">60% Off | Bloom Plant</h3>
+                                 <a href="#" class="mt-4 text-xl font-semibold underline">Shop Now</a>
+                           </div>
                         </div>
-                        <div class="">
-                            <img src="images/deal-ana.png" alt="" class="">
-                            <h3 class="">30% Off | Ana  Plant</h3>
-                            <p class="">Shop Now</p>
+                        <div class="relative h-80 rounded-xl overflow-hidden">
+                            <img src="images/deal-ana.png" alt=""
+                            class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black/30 flex flex-col justify-center items-center text-white text-center ">
+                                <h3 class="text-3xl font-bold">30% Off | Ana  Plant</h3>
+                                <a href="#" class="mt-4 text-xl font-semibold underline">Shop Now</a>
+                            </div>
+
                         </div> 
                     </div>
-                    <div class=" ">  
-                        <img src="images/deal-zabo.png" alt="" class=""> 
-                        <h3 class="">25% Off | Zabo Plant</h3>
-                        <p class="">Shop Now</p>
 
+                    <div class="lg:col-span-2">
+                        <div class="relative h-full min-h-[300px] rounded-xl overflow-hidden ">  
+                            <img src="images/deal-zabo.png" alt="" class="w-full h-full object-cover"> 
+                            <div class=" flex flex-col justify-center items-center text-white text-center">
+                                <h3 class="text-3xl font-bold">25% Off | Zabo Plant</h3>
+                                <a href="#" class="mt-4 text-xl font-semibold underline">Shop Now</a> 
+                            </div>
+                        </div>
                     </div>
 
                 </div>
-            </div>
 
 
 
-        </section>
 
+
+
+
+            </div>   
+            
 
 
         <!-- join section  -->
-         <section class="mt-30 py-20 ">
-            <div class="w-full h-screen bg-cover bg-center bg-[url('/images/news-letter-bg.png')] "> 
-
+        <section class="mt-10 py-10 ">
+            <div class="flex justify-center items-center h-screen bg-cover bg-center bg-[url('/images/news-letter-bg.png')]">
+                <div class=" text-center mt-20 mb-15 space-y-6">
+                    <h3 class="font-serif font-bold text-3xl lg:text-5xl text-[#FFFFFF]">Join the colorful Bunch</h3>
+                    <form class="flex justify-center items-center">
+                        <input type="email" name="email" id="email" placeholder="Write email" class="w-[350px] lg:w-[644px] h-15 px-4 bg-white text-[rgba(0,0,0,0.5)] placeholder-gray-500 focus:outline-none">
+                        <button type="submit" class="bg-orange-500 w-[100px] lg:w-[186px] h-15 text-[#FFFFFF]">Subscribe</button>
+                    </form>
+                </div>
             </div>
 
-
-
-         </section>
+        </section>
 
 
     </main>
